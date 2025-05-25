@@ -4,6 +4,7 @@
 // the @ts-check directive. It will give you helpful autocompletion when
 // implementing this exercise.
 
+
 /**
  * Get the position (index) of the card in the given stack
  *
@@ -12,7 +13,9 @@
  *
  * @returns {number} position of the card in the stack
  */
-export let getCardPosition = (stack, card) => stack.indexOf(card)
+export let getCardPosition = (stack, card) =>{
+   return  stack.indexOf(card)
+}
 
 
 /**
@@ -23,7 +26,9 @@ export let getCardPosition = (stack, card) => stack.indexOf(card)
  *
  * @returns {boolean} true if card is in the stack, false otherwise
  */
-export let doesStackIncludeCard = (stack, card) => stack.includes(card)
+export let doesStackIncludeCard = (stack, card)=>{
+    return stack.includes(card);
+}
 
 
 /**
@@ -33,7 +38,9 @@ export let doesStackIncludeCard = (stack, card) => stack.includes(card)
  *
  * @returns {boolean} true if all cards are even, false otherwise
  */
-export let isEachCardEven = stack => stack.every((num)=>num%2 == 0)
+export let isEachCardEven = stack =>{
+    return stack.every((num)=> num%2==0)
+}
 
 /**
  * Check if stack contains odd-value card
@@ -42,7 +49,9 @@ export let isEachCardEven = stack => stack.every((num)=>num%2 == 0)
  *
  * @returns {boolean} true if the array contains odd card, false otherwise
  */
-export let doesStackIncludeOddCard = stack => stack.some((num)=> num%2 !== 0)
+export let doesStackIncludeOddCard = stack =>{
+    return stack.some((num)=> num%2==1)
+}
 
 /**
  * Get the first odd card from the stack
@@ -51,7 +60,9 @@ export let doesStackIncludeOddCard = stack => stack.some((num)=> num%2 !== 0)
  *
  * @returns {number | undefined} the first odd value
  */
-export let getFirstOddCard = stack => stack.find((num)=> num%2 !== 0)
+export let getFirstOddCard = stack =>{
+    return stack.find((num)=>num%2==1)
+}
 
 /**
  * Determine the position of the first card that is even
@@ -60,4 +71,6 @@ export let getFirstOddCard = stack => stack.find((num)=> num%2 !== 0)
  *
  * @returns {number} position of the first card that is even
  */
-export let getFirstEvenCardPosition = stack => stack.findIndex((num)=> num%2==0)
+export let getFirstEvenCardPosition = stack=>{
+    return stack.findIndex((num)=> num%2==0)
+}
