@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AppointmentSchedulerTest" tests="23" skipped="0" failures="23" errors="0" timestamp="2026-02-26T18:54:11.424Z" hostname="NAHSEV" time="0.102">
+  <properties/>
+  <testcase name="Noon appointment is an afternoon appointment" classname="AppointmentSchedulerTest" time="0.024">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method
+	at AppointmentScheduler.isAfternoonAppointment(AppointmentScheduler.java:19)
+	at AppointmentSchedulerTest.testIsAfternoonAppointmentForNoonAppointment(AppointmentSchedulerTest.java:148)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Early evening appointment is not an afternoon appointment" classname="AppointmentSchedulerTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method
+	at AppointmentScheduler.isAfternoonAppointment(AppointmentScheduler.java:19)
+	at AppointmentSchedulerTest.testIsAfternoonAppointmentForEarlyEveningAppointment(AppointmentSchedulerTest.java:175)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Appointment hours from now has not passed" classname="AppointmentSchedulerTest" time="0.007">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method
+	at AppointmentScheduler.hasPassed(AppointmentScheduler.java:15)
+	at AppointmentSchedulerTest.testHasPassedHoursFromNow(AppointmentSchedulerTest.java:94)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Appointment from hours ago has passed" classname="AppointmentSchedulerTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method
+	at AppointmentScheduler.hasPassed(AppointmentScheduler.java:15)
+	at AppointmentSchedulerTest.testHasPassedHoursAgo(AppointmentSchedulerTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Late evening appointment is not an afternoon appointment" classname="AppointmentSchedulerTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method
+	at AppointmentScheduler.isAfternoonAppointment(AppointmentScheduler.java:19)
+	at AppointmentSchedulerTest.testIsAfternoonAppointmentForLateEveningAppointment(AppointmentSchedulerTest.java:184)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Appointment days from now has not passed" classname="AppointmentSchedulerTest" time="0.004">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method
+	at AppointmentScheduler.hasPassed(AppointmentScheduler.java:15)
+	at AppointmentSchedulerTest.testHasPassedDaysFromNow(AppointmentSchedulerTest.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Appointment from one minute ago has passed" classname="AppointmentSchedulerTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method
+	at AppointmentScheduler.hasPassed(AppointmentScheduler.java:15)
+	at AppointmentSchedulerTest.testHasPassedOneMinuteAgo(AppointmentSchedulerTest.java:76)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Description on Friday afternoon" classname="AppointmentSchedulerTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.getDescription() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.getDescription() method
+	at AppointmentScheduler.getDescription(AppointmentScheduler.java:23)
+	at AppointmentSchedulerTest.testDescriptionOnFridayAfternoon(AppointmentSchedulerTest.java:194)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Appointment from days ago has passed" classname="AppointmentSchedulerTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method
+	at AppointmentScheduler.hasPassed(AppointmentScheduler.java:15)
+	at AppointmentSchedulerTest.testHasPassedDaysAgo(AppointmentSchedulerTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Early morning appointment is not an afternoon appointment" classname="AppointmentSchedulerTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method
+	at AppointmentScheduler.isAfternoonAppointment(AppointmentScheduler.java:19)
+	at AppointmentSchedulerTest.testIsAfternoonAppointmentForEarlyMorningAppointment(AppointmentSchedulerTest.java:130)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Appointment minutes from now has not passed" classname="AppointmentSchedulerTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method
+	at AppointmentScheduler.hasPassed(AppointmentScheduler.java:15)
+	at AppointmentSchedulerTest.testHasPassedMinutesFromNow(AppointmentSchedulerTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Appointment from months ago has passed" classname="AppointmentSchedulerTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method
+	at AppointmentScheduler.hasPassed(AppointmentScheduler.java:15)
+	at AppointmentSchedulerTest.testHasPassedMonthsAgo(AppointmentSchedulerTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Description on Wednesday morning" classname="AppointmentSchedulerTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.getDescription() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.getDescription() method
+	at AppointmentScheduler.getDescription(AppointmentScheduler.java:23)
+	at AppointmentSchedulerTest.testDescriptionOnWednesdayMorning(AppointmentSchedulerTest.java:214)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Scheduling a date" classname="AppointmentSchedulerTest" time="0.003">
+    <failure message="java.time.format.DateTimeParseException: Text '07/25/2019 13:45:00' could not be parsed at index 0" type="java.time.format.DateTimeParseException">java.time.format.DateTimeParseException: Text '07/25/2019 13:45:00' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2108)
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2010)
+	at java.base/java.time.LocalDateTime.parse(LocalDateTime.java:496)
+	at java.base/java.time.LocalDateTime.parse(LocalDateTime.java:481)
+	at AppointmentScheduler.schedule(AppointmentScheduler.java:8)
+	at AppointmentSchedulerTest.testSchedule(AppointmentSchedulerTest.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Early afternoon appointment is an afternoon appointment" classname="AppointmentSchedulerTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method
+	at AppointmentScheduler.isAfternoonAppointment(AppointmentScheduler.java:19)
+	at AppointmentSchedulerTest.testIsAfternoonAppointmentForEarlyAfternoonAppointment(AppointmentSchedulerTest.java:157)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Late morning appointment is not an afternoon appointment" classname="AppointmentSchedulerTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method
+	at AppointmentScheduler.isAfternoonAppointment(AppointmentScheduler.java:19)
+	at AppointmentSchedulerTest.testIsAfternoonAppointmentForLateMorningAppointment(AppointmentSchedulerTest.java:139)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Late morning appointment is an afternoon appointment" classname="AppointmentSchedulerTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.isAfternoonAppointment() method
+	at AppointmentScheduler.isAfternoonAppointment(AppointmentScheduler.java:19)
+	at AppointmentSchedulerTest.testIsAfternoonAppointmentForLateAfternoonAppointment(AppointmentSchedulerTest.java:166)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Appointment from minutes ago has passed" classname="AppointmentSchedulerTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method
+	at AppointmentScheduler.hasPassed(AppointmentScheduler.java:15)
+	at AppointmentSchedulerTest.testHasPassedMinutesAgo(AppointmentSchedulerTest.java:67)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Appointment years from now has not passed" classname="AppointmentSchedulerTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method
+	at AppointmentScheduler.hasPassed(AppointmentScheduler.java:15)
+	at AppointmentSchedulerTest.testHasPassedYearsFromNow(AppointmentSchedulerTest.java:121)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="The anniversary date" classname="AppointmentSchedulerTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.getAnniversaryDate() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.getAnniversaryDate() method
+	at AppointmentScheduler.getAnniversaryDate(AppointmentScheduler.java:27)
+	at AppointmentSchedulerTest.testAnniversaryDate(AppointmentSchedulerTest.java:223)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Description on Thursday afternoon" classname="AppointmentSchedulerTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.getDescription() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.getDescription() method
+	at AppointmentScheduler.getDescription(AppointmentScheduler.java:23)
+	at AppointmentSchedulerTest.testDescriptionOnThursdayAfternoon(AppointmentSchedulerTest.java:204)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Appointment months from now has not passed" classname="AppointmentSchedulerTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method
+	at AppointmentScheduler.hasPassed(AppointmentScheduler.java:15)
+	at AppointmentSchedulerTest.testHasPassedMonthsFromNow(AppointmentSchedulerTest.java:112)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="Appointment from one year ago has passed" classname="AppointmentSchedulerTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the AppointmentScheduler.hasPassed() method
+	at AppointmentScheduler.hasPassed(AppointmentScheduler.java:15)
+	at AppointmentSchedulerTest.testHasPassedOneYearAgo(AppointmentSchedulerTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Llega esto: 07/25/2019 13:45:00
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
